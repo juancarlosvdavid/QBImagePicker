@@ -74,4 +74,8 @@
     self.albumsNavigationController = navigationController;
 }
 
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortraitUpsideDown | UIInterfaceOrientationMaskPortrait;
+}
+
 @end
